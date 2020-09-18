@@ -22,12 +22,17 @@ for num in range(5, 100, 5):
 
 print()
 
+# step can be negative - just reverse order
+for num in range(100, 20, -5):
+    print(num)
+
 # string splicing
 phrase = "Tahiti, it's a magical place"
 print(phrase[3])
 print(phrase[3:6])
 print(phrase[3:12:2])
-print(phrase[::])
+print(phrase[::])  # copy the string
+print(phrase[::-1])  # reverse the string
 
 for char in phrase:
     print(char)

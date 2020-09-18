@@ -59,7 +59,10 @@ print()
 print("---Clear---")
 people.clear()
 print(people)
-print()
 
 print("Copy of people we made a while ago is still the same!")
 print(copy_of_people)
+print()
+
+# List splicing - same as string splicing
+print(copy_of_people[1:4])

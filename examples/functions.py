@@ -22,10 +22,20 @@ def echo(message, count):
         print(message)
 
 
+def pop_from_list(items):
+    items.pop()
+    return items
+
+
 def main():
     square(5)
     greet("Rebecca", "Person of Interest")
     echo("Hello world", 5)
+
+    # pass by reference vs pass by value
+    # my_list = [1, 2, 3]
+    # pop_from_list(my_list)
+    # print(my_list)
 
 
 # Calling functions

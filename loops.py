@@ -37,6 +37,11 @@ print(phrase[::-1])  # reverse the string
 for char in phrase:
     print(char)
 
+# len() returns the length of something
+print("Number of characters in phrase:", len(phrase))
+for index in range(0, len(phrase) - 1):
+    print(phrase[index])
+
 # While Loop
 x = 1
 while x < 5:

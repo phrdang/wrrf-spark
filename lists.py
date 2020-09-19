@@ -66,3 +66,6 @@ print()
 
 # List splicing - same as string splicing
 print(copy_of_people[1:4])
+
+# len() also works for lists
+print("Number of elements in list:", len(copy_of_people))
